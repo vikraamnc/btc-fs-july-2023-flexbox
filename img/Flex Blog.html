@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://127.0.0.1:5501/Mini%20Projects/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Flex Blog_files/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Flex Blog</title>
+  <link rel="stylesheet" href="./Flex Blog_files/style.css"></head>
+  
+  <body>
+    <div class="wrapper">
+      <!--global msg-->
+      <section class="global">
+        <div class="container">
+          <!--for shortcut :section>*2 -->
+          <div>Welcome</div>
+          <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </section>
+
+      <!--top nav bar-->
+      <header>
+        <div class="container">
+          <div class="logo">
+            <div>LOGO</div>
+          </div>
+          <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+          </ul>
+        </div>
+      </header>
+
+      <!--hERO SECTION-->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Welcome to my travel blogs</h1>
+          <hr>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            culpa, ut cumque voluptatum harum maiores
+          </p>
+        </div>
+      </section>
+
+      <!--latest-->
+      <section class="container">
+        <h2>Latest Post</h2>
+        <hr>
+        <main class="main">
+          <div class="article">
+            <article>
+              <div class="img-art">
+                <img src="./Flex Blog_files/bg.png" alt="" width="100%">
+              </div>
+              <div>
+                <div class="title">
+                  How to travel around the world in cheap price?
+                </div>
+                <i class="fa-solid fa-calendar-days"></i>
+                <small>20-20-2020</small>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus aut quasi quas ut id harum earum quibusdam ducimus
+                  quia sapiente. Ex exercitationem totam dolor quasi aut
+                  repellendus nobis iusto non.
+                </p>
+                <button class="btn">Read More</button>
+              </div>
+            </article>
+          </div>
+          <div class="side-links"></div>
+        </main>
+      </section>
+
+      <!--recomendation -->
+
+      <!--subscribe form-->
+
+      <!--footer-->
+      <footer class="footer">
+        © Copyright reserved by the company. 👻
+      </footer>
+
+      <!--  -->
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

@@ -1,0 +1,119 @@
+.body {
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+/*=============global*/
+.global {
+  background: rgb(205, 193, 58);
+}
+.global > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px, 0;
+  color: white;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+}
+/* ===========header */
+header {
+  background: aquamarine;
+  display: flex;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  color: rgb(9, 9, 9);
+  align-items: center;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+header ul li {
+  margin-left: 16px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+header ul li:hover {
+  cursor: pointer;
+  background: rgb(249, 239, 239);
+  transform: scale(0.9);
+}
+.logo {
+  background: white;
+  color: rgb(7, 56, 231);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 900;
+}
+.logo div {
+  border: 3px dotted blue;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ==========hero */
+.hero {
+  background: rgb(166, 255, 0);
+  background-size: cover;
+  background: url(./img/ld.png) no-repeat center;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  background: black;
+  color: white;
+  width: 500px;
+
+  padding: 32px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-content hr {
+  width: 100%;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.article {
+  width: 66%;
+}
+.side-links {
+  background: blue;
+  width: 34%;
+}
+.footer {
+  color: white;
+  background: black;
+  padding: 50px;
+  text-align: center;
+  margin-top: 16px;
+}
+article {
+  display: flex;
+  gap: 16px;
+  box-shadow: -6px 5px 5px rgb(54, 40, 40);
+  padding: 20px 16px;
+}
