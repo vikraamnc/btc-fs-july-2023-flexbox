@@ -2,7 +2,7 @@
   --primary: aqua;
   --box-shadow: -6px 5px 5px rgb(208, 199, 199);
 }
-.body {
+body {
   margin: 0;
 }
 .container {
